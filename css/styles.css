@@ -17,6 +17,16 @@
     box-sizing: border-box;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--address-color);
@@ -72,11 +82,11 @@ main {
 .header-nav {
     display: flex;
     align-items: center;
-    margin-right: 332px;
-    padding: 24px 0;
+    margin-right: auto;
 }
 
 .nav-link {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: var(--font-size);
@@ -104,7 +114,8 @@ main {
     font-style: normal;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    align-items: center;
+
 }
 
 .address {
@@ -239,7 +250,6 @@ main {
 .images-studio {
     display: flex;
     gap: 24px;
-    margin: 0 auto 120px;
 }
 
 .design-item {
