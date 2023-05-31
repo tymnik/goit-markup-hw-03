@@ -134,15 +134,16 @@ main {
     letter-spacing: 0.03em;
 }
 
+.hlogo {
+    margin-right: 76px;
+}
+
 .logo-color {
     color: var(--heading-color);
-    margin-right: 76px;
 }
 
 .logo-color-footer {
     color: var(--light-backgrounds);
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .hero-block {
@@ -173,7 +174,7 @@ main {
     background-color: var(--brand-color);
     cursor: pointer;
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -363,6 +364,11 @@ main {
 .footer {
     background-color: var(--heading-color);
     padding: 100px 0;
+}
+
+.flogo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-footer {
