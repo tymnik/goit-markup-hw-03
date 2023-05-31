@@ -173,6 +173,7 @@ main {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button {
