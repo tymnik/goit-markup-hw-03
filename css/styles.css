@@ -31,8 +31,6 @@ img {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 main {
@@ -41,6 +39,8 @@ main {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .link {
@@ -62,6 +62,7 @@ main {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 
 .header-content {
@@ -71,6 +72,8 @@ main {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: 332px;
+    padding: 24px 0;
 }
 
 .nav-link {
@@ -101,6 +104,7 @@ main {
     font-style: normal;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address {
